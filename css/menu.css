@@ -1,0 +1,346 @@
+/*Body width 1280px for compatibility on all devices. NOT responsive but works on every device*/
+body {
+	font-family: "Roboto", sans-serif;
+	margin: auto;
+	width: 1280px;
+	background-color: #ffffff;
+	}
+	/*Navigation bar begins*/
+.navbar{
+	width: 100%;
+	height: 90px;
+	background-color: #ffffff;
+	box-shadow: 0px 2px 5px -1px #888888;
+}
+.logo{
+	display: block;
+	margin-left: 529px;
+	padding-top: 10px;
+}
+.listleft{
+	float: left;
+	margin-top: -55px;
+	margin-left: 190px;
+}
+.about{
+	margin-left: -10px;
+}
+.listright{
+	float: right;
+	margin-top: -55px;
+	margin-right: 200px;
+}
+.homebtn{
+	float: left;
+	margin-top: -60px;
+	margin-left: 30px;
+}
+.cart{
+	float: right;
+	margin-top: -66px;
+	margin-right: 30px;
+}
+.navlinks a:link{
+	font-size: 110%;
+	font-weight: 300;
+	color: #000000;
+	margin-right: 30px;
+	text-decoration: none;
+}
+/*Rules for order of psuedo-classes
+	a:hover MUST come after a:link and a:visited
+	a:active MUST come after a:hover
+*/
+.navlinks a:visited{
+	color: #212121;
+}
+.navlinks a:hover{
+	color: #00e676;
+}
+.navlinks a.active{
+  color: #212121;
+	background-color: #B2DFDB;
+	padding: 10px;
+	border-radius: 5px;
+	font-weight: 300;
+}
+/*Navigation bar ends*/
+/*Top Content Begins*/
+.header{
+	background-image: url(https://static.pexels.com/photos/349608/pexels-photo-349608.jpeg);
+	height: 300px;
+	width: 1280px;
+	background-attachment: fixed;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position:static
+}
+#textbg{
+	padding-top: 40px;
+}
+#textbg h1{
+	font-weight: 500;
+	font-size: 500%;
+	text-align: center;
+	color: #212121;
+}
+
+*{
+  box-sizing: border-box;
+}
+.dropbtn{
+	background-color: #ffffff;
+  color: #212121;
+  border: none;
+  cursor: pointer;
+	margin-top: 50px;
+	padding-bottom: 0px;
+	background-image: url("http://pvlsites.com/Kulkarni/FBLA/images/filters.png");
+	width: 93px;
+	height: 25px;
+}
+.filterdown{
+	float: right;
+	margin-top: 50px;
+	cursor: pointer;
+	width: 93px;
+	height: 25px;
+	background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+.dropdown{
+		margin-left: 1150px;
+		position: relative;
+    display: inline-block;
+}
+ul{
+	list-style-type: none;
+}
+.dropdown-content {
+		text-align: right;
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    width: 160px;
+    overflow: auto;
+    box-shadow: 0px 5px 10px -1px #888888;
+    right: 0;
+}
+.show {
+	display:block;
+}
+.btn{
+  border: none;
+  margin: 10px 14px 0px 0px;
+  background-color: #ffffff;
+  cursor: pointer;
+	font-size: 120%;
+}
+.btn:hover{
+  color: #00e676;
+}
+
+.row a:link{
+	text-decoration: none;
+	color: #212121;
+}
+.row a:visited{
+	text-decoration: none;
+	color: #212121;
+}
+/* Add padding BETWEEN each column */
+.column{
+	padding: 10px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column{
+  float: left;
+  display: none; /* Hide all elements by default */
+}
+.column:hover{
+}
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content{
+	display: block;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 10px -1px #888888;
+	margin-top: 50px;
+	width: 300px;
+	height: 350px;
+	text-align: center;
+}
+.content img{
+	margin-top: 10px;
+}
+.label{
+	float: left;
+}
+.content h2{
+	padding: 20px 5px 20px 5px;
+	font-weight: 300;
+}
+.contentstatic h2{
+	margin-top: 27px;
+	background-color: #00bfa5;
+	color: #ffffff;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.hovercontent{
+	display: none;
+}
+.hovercontent h2{
+	padding: 100px 25px 20px 25px;
+	color: #ffffff;
+	font-weight: 300;
+}
+.hovercontent h1{
+	padding: 0px 20px 0px 20px;
+	color: #00e676;
+	font-weight: 300;
+}
+.content:hover .hovercontent{
+	display: block;
+	width: 300px;
+	height: 350px;
+	box-shadow: 0px 1px 10px -1px #888888;
+	border-radius: 5px;
+	background-color: #212121;
+}
+.content:hover .contentstatic{
+	display: none;
+}
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+
+/*Footer Begins*/
+footer{
+	width: 1280px;
+	margin: 100px auto 0px auto;
+	background-color: #212121;
+}
+.footercontent{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.footleft{
+	float: left;
+	margin-left: 50px;
+}
+.social{
+	margin-top: 40px;
+}
+#secondlogo{
+	margin-left: 20px;
+}
+#thirdlogo{
+	margin-left: 20px;
+}
+.footmidleft{
+	float: left;
+	margin-left: 160px;
+	margin-top: -25px;
+}
+.leftlist{
+	list-style-type: none;
+	color: #ffffff;
+	text-align: left;
+	margin-top: -15px;
+}
+.rightlist li{
+	padding-top: 15px;
+}
+.leftlist li{
+	padding-top: 15px;
+}
+.footmidleft a:link{
+	color: #00e676;
+	text-decoration: none;
+}
+.footmidleft a:visited{
+	color: #00e676;
+}
+.footmidleft a:hover{
+	text-decoration: underline;
+}
+.footmidright{
+	float: left;
+	margin-left: 160px;
+	margin-top: -25px;
+}
+.rightlist{
+	list-style-type: none;
+	text-align: left;
+	color: #ffffff;
+	margin-top: -15px;
+}
+.footmidright a:link{
+	color: #00e676;
+	text-decoration: none;
+}
+.footmidright a:visited{
+	color: #00e676;
+}
+.footmidright a:hover{
+	text-decoration: underline;
+}
+.footright{
+	float: right;
+	margin-right: 50px;
+	margin-top: -20px;
+}
+.addressinfo{
+	color: #ffffff;
+}
+.addressinfo a:link{
+	text-decoration: none;
+	color: #00e676;
+}
+.addressinfo a:hover{
+	text-decoration: underline;
+}
+#copyright h5{
+	margin-top: 20%;
+	margin-bottom: 0px;
+	text-align: center;
+	padding: 5px;
+	font-weight: 300;
+	color: #ffffff;
+	background-color: #424242;
+}
+.footerbottom{
+	background-color: #616161;
+	margin: auto;
+}
+.bottomcont{
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+.bottomcont p{
+	font-size: 120%;
+	margin-left: 20%;
+	margin-right: 20%;
+	font-weight: 300;
+	color: #ffffff;
+}
+.bottomcont a:link{
+	color: #00e676;
+}
+.bottomcont a:visited{
+	color: #00e676;
+}
+/*Footer Ends*/

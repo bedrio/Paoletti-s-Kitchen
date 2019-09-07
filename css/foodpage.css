@@ -1,0 +1,83 @@
+.descriptionbox{
+  width: 1000px;
+	display: block;
+	margin: auto;
+	margin-top: 5%;
+	box-shadow: 0 6px 28px rgba(0,0,0,0.25), 0 2px 10px rgba(0,0,0,0.22);
+	border-radius: 5px;
+}
+.descriptioncontent{
+  display: flex;
+  padding: 50px 50px;
+}
+.food{
+  flex: 0.65;
+}
+.food img{
+  width: 300px;
+  height: 300px;
+  margin: 0px;
+}
+.descriptiontext{
+  flex: 1;
+}
+.descriptiontext h1{
+  color: #212121;
+  font-weight: 500;
+  font-size: 300%;
+  margin: 0px;
+  margin-top: 20px;
+}
+.descriptiontext h2{
+  color: #00bfa5;
+  font-weight: 300;
+  font-size: 300%;
+  margin: 0px;
+  margin-top: 75px;
+  text-align: right;
+}
+.descriptiontext p{
+  color: #212121;
+  font-weight: 300;
+  font-size: 26px;
+}
+.belowbox{
+  width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+}
+.fakedivbelow{
+
+}
+.button{
+  float: right;
+}
+.back{
+
+}
+.back a:link{
+  font-size: 150%;
+  font-weight: 300;
+  color: #00bfa5;
+  text-decoration: none;
+}
+.back a:visited{
+  color: #00bfa5;
+}
+.back a:hover{
+  text-decoration: underline;
+}
+.orderbtn{
+  border: none;
+  cursor: pointer;
+  padding: 25px 80px;
+  background-color: #00bfa5;
+  color: #ffffff;
+  border-radius: 50px;
+  border: 3px solid none;
+  color: #fff;
+  font-size: 150%;
+}
+.orderbtn:hover{
+	background-color: #1DE9B6;
+}

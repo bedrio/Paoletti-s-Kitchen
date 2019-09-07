@@ -1,0 +1,302 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 479px){
+  .header{
+    margin-top: 30px;
+  }
+  .header h1{
+    font-size: 250%;
+  }
+  .twochoices{
+    margin: 0px;
+    margin-top: 40px;
+    width: 100%;
+    flex-direction: column;
+  }
+  .twochoices img{
+    width: 100%;
+    height: auto;
+  }
+  #cartearrow{
+    width: 30px;
+  	height: 30px;
+    margin: auto;
+    position: relative;
+    top: -40px;
+    background-image: url("https://png.icons8.com/metro/30/ffffff/chevron-down.png");
+  }
+  #bundlearrow{
+    width: 30px;
+  	height: 30px;
+    margin: auto;
+    position: relative;
+    top: -40px;
+    background-image: url("https://png.icons8.com/metro/30/ffffff/chevron-down.png");
+  }
+  #carteclose{
+    width: 30px;
+  	height: 30px;
+    margin: auto;
+    position: relative;
+    top: -35px;
+    bottom: 0px;
+    background-image: url("https://png.icons8.com/ios/30/ffffff/cancel-filled.png");
+  }
+  #bundleclose{
+    width: 30px;
+  	height: 30px;
+    margin: auto;
+    position: relative;
+    top: -35px;
+    bottom: 0px;
+    background-image: url("https://png.icons8.com/ios/30/ffffff/cancel-filled.png");
+  }
+  .carteformcontainer{
+    width: calc(100% - 50px);
+  }
+  .bundleformcontainer{
+    width: calc(100% - 50px);
+  }
+  .carteformtitle h1{
+  	font-size: 300%;
+  }
+  .carterow{
+  	display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0px;
+    margin-top: 30px;
+  }
+  .city{
+    flex: 1;
+    margin-top: -30px;
+  }
+  .input {
+    max-width: 100%;
+  	width: 100%;
+  }
+  .delivery{
+    flex-direction: column;
+  }
+  .submitbtn{
+    margin: 0px;
+  	padding: 25px 45px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .methodoptions{
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (min-device-width : 480px) and (max-device-width : 767px){
+  .twochoices{
+    margin: 0px;
+    width: 100%;
+  }
+  .twochoices img{
+    width: 100%;
+    height: auto;
+  }
+  #cartearrow{
+    width: 30px;
+  	height: 30px;
+    margin: auto;
+    position: relative;
+    top: -40px;
+    background-image: url("https://png.icons8.com/metro/30/ffffff/chevron-down.png");
+  }
+  #bundlearrow{
+    width: 30px;
+  	height: 30px;
+    margin: auto;
+    position: relative;
+    top: -40px;
+    background-image: url("https://png.icons8.com/metro/30/ffffff/chevron-down.png");
+  }
+  #carteclose{
+    width: 30px;
+  	height: 30px;
+    margin: auto;
+    position: relative;
+    top: -35px;
+    bottom: 0px;
+    background-image: url("https://png.icons8.com/ios/30/ffffff/cancel-filled.png");
+  }
+  #bundleclose{
+    width: 30px;
+  	height: 30px;
+    margin: auto;
+    position: relative;
+    top: -35px;
+    bottom: 0px;
+    background-image: url("https://png.icons8.com/ios/30/ffffff/cancel-filled.png");
+  }
+  .carteformcontainer{
+    width: calc(100% - 50px);
+  }
+  .bundleformcontainer{
+    width: calc(100% - 50px);
+  }
+  .carterow{
+  	display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0px;
+    margin-top: 30px;
+  }
+  .city{
+    flex: 1;
+    margin-top: -30px;
+  }
+  .input {
+    max-width: 100%;
+  	width: 100%;
+  }
+  .delivery{
+    flex-direction: column;
+  }
+  .submitbtn{
+    margin: 0px;
+  	padding: 25px 45px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .methodoptions{
+    display: flex;
+  }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px){
+  .twochoices{
+    margin: 0px;
+    width: 100%;
+  }
+  .twochoices img{
+    width: 100%;
+    height: auto;
+  }
+  #cartearrow{
+    width: 30px;
+  	height: 30px;
+    margin: auto;
+    position: relative;
+    top: -40px;
+    background-image: url("https://png.icons8.com/metro/30/ffffff/chevron-down.png");
+  }
+  #bundlearrow{
+    width: 30px;
+  	height: 30px;
+    margin: auto;
+    position: relative;
+    top: -40px;
+    background-image: url("https://png.icons8.com/metro/30/ffffff/chevron-down.png");
+  }
+  #carteclose{
+    width: 30px;
+  	height: 30px;
+    margin: auto;
+    position: relative;
+    top: -35px;
+    bottom: 0px;
+    background-image: url("https://png.icons8.com/ios/30/ffffff/cancel-filled.png");
+  }
+  #bundleclose{
+    width: 30px;
+  	height: 30px;
+    margin: auto;
+    position: relative;
+    top: -35px;
+    bottom: 0px;
+    background-image: url("https://png.icons8.com/ios/30/ffffff/cancel-filled.png");
+  }
+  .carteformcontainer{
+    width: calc(100% - 50px);
+  }
+  .bundleformcontainer{
+    width: calc(100% - 50px);
+  }
+  .carterow{
+  	display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0px;
+    margin-top: 30px;
+  }
+  .city{
+    flex: 1;
+    margin-top: -30px;
+  }
+  .input {
+    max-width: 100%;
+  	width: 100%;
+  }
+  .submitbtn{
+    margin: 0px;
+  	padding: 25px 45px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .methodoptions{
+    display: flex;
+  }
+}
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1280px){
+  .twochoices{
+    margin: 0px;
+    width: 100%;
+  }
+  .twochoices img{
+    width: 100%;
+    height: auto;
+  }
+  #cartearrow{
+    width: 40px;
+  	height: 40px;
+    margin: auto;
+    position: relative;
+    top: -50px;
+    background-image: url("https://png.icons8.com/metro/40/ffffff/chevron-down.png");
+  }
+  #bundlearrow{
+    width: 40px;
+  	height: 40px;
+    margin: auto;
+    position: relative;
+    top: -50px;
+    background-image: url("https://png.icons8.com/metro/40/ffffff/chevron-down.png");
+  }
+  #carteclose{
+    width: 40px;
+  	height: 40px;
+    margin: auto;
+    position: relative;
+    top: -50px;
+    bottom: 0px;
+    background-image: url("https://png.icons8.com/ios/40/ffffff/cancel-filled.png");
+  }
+  #bundleclose{
+    width: 40px;
+  	height: 40px;
+    margin: auto;
+    position: relative;
+    top: -50px;
+    bottom: 0px;
+    background-image: url("https://png.icons8.com/ios/40/ffffff/cancel-filled.png");
+  }
+}
+@media only screen and (min-device-width : 1281px) and (max-device-width : 1439px){
+
+}
+@media only screen and (min-device-width : 1440px) and (max-device-width : 1823px){
+
+}
+@media only screen and (min-device-width : 1824px) and (max-device-width : 1919px){
+
+}
+@media only screen and (min-device-width : 1920px) and (max-device-width : 2047px){
+
+}
+@media only screen and (min-device-width : 2048px) and (max-device-width : 2560px){
+
+}

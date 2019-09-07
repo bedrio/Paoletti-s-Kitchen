@@ -1,0 +1,122 @@
+.header{
+	background-image: url("https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg");
+ 	background-attachment: fixed;
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position:static;
+}
+#textbg{
+	padding-top: 100px;
+	padding-bottom: 100px;
+  background-color: rgba(0,0,0,0.5);
+}
+#textbg h1{
+	font-weight: 900;
+	font-size: 600%;
+	text-align: center;
+	color: #ffffff;
+	margin: 0px;
+}
+#textbg p{
+  max-width: 1000px;
+  display: block;
+  margin: auto;
+	font-weight: 300;
+	font-size: 300%;
+	text-align: center;
+	color: #ffffff;
+}
+.internalnav{
+  margin-top: 50px;
+}
+.internalnav ul{
+  padding: 0px;
+  text-align: center;
+}
+.internalnav li{
+	list-style-type: none;
+	display: inline;
+  padding: 30px;
+}
+.internalnav a:link{
+  color: #2196F3;
+  text-decoration: none;
+}
+.internalnav a:visited{
+  color: #2196F3;
+}
+.internalnav a:hover{
+  text-decoration: underline;
+}
+.contentcontainer a:link{
+  text-decoration: none;
+  color: #00bfa5;
+}
+.contentcontainer a:visited{
+  color: #00bfa5;
+}
+.contentcontainer a:hover{
+  color: #00e676;
+  text-decoration: underline;
+}
+.contentcontainer p{
+  text-align: left;
+  font-size: 150%;
+  font-weight: 300;
+  max-width: 1000px;
+}
+.contentcontainer h1{
+  text-align: left;
+  font-weight: 500;
+}
+.section{
+  max-width: 1000px;
+  display: block;
+  margin: auto;
+  color: #212121;
+  margin-top: 50px;
+}
+.imganda{
+  display: flex;
+  align-items: center;
+}
+.imganda img{
+  width: 20%;
+  height: 20%;
+}
+#logo ul{
+  margin-left: 40px;
+}
+#logo li{
+  font-size: 150%;
+  padding: 5px;
+  margin-left: 20px;
+	list-style-type: none;
+}
+#wordmark li{
+  font-size: 150%;
+  padding: 5px;
+  margin-left: 20px;
+	list-style-type: none;
+  display: inline;
+}
+.imganda1{
+  display: flex;
+  align-items: center;
+}
+.imganda1 img{
+  width: 30%;
+  height: 30%;
+}
+#wordmark a:link{
+  text-decoration: none;
+  color: #00bfa5;
+}
+#wordmark a:visited{
+  color: #00bfa5;
+}
+#wordmark a:hover{
+  color: #00e676;
+  text-decoration: underline;
+}

@@ -1,0 +1,190 @@
+
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Paoletti's Kitchen | Vegetarian Cavatappi Pasta</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,500" rel="stylesheet">
+	<link rel="stylesheet" href="css/foodpage.css">
+	<link rel="stylesheet" href="css/responsive_headerfooter.css">
+	<link rel="stylesheet" href="css/responsive_foodpage.css">
+	<link rel="stylesheet" href="css/animations.css">
+	<link rel="shortcut icon" type="image/png" href="images/favicon.png">
+</head>
+
+<body><!--Contains website content-->
+
+
+	<nav> <!--Navigation bar. Contains full length navigation AND side navigation for smaller displays-->
+		<div class="containernav"><!--Used for positioning purposes-->
+			<div class="logo"> <!--Company logo-->
+				<a href="index.html"><img src="images/logo_90x300.png" alt="Paoletti's Kitchen" id="logoimage"></a>
+			</div>
+			<div class="navlinks"><!--Only contains the important links for navigation. Contains: Menu, About Us, Contact Us, Log In, Sign Up and Order.
+				Additional links are found in footer-->
+				<ul>
+					<li class="dropdown"><!--A La Carte and Meal Bundles fall in this category and thus a dropdown is used-->
+    				<a href="javascript:void(0)" class="dropbtn">Menu <span><img src="https://png.icons8.com/metro/20/000000/chevron-down.png" alt="down arrow for menu"></span></a><!--Arrow facing down for the dropdown-->
+    				<div class="dropdowncontent">
+      				<a href="alacarte.html">À La Carte</a>
+      				<a href="bundles.html">Meal Bundles</a>
+    				</div>
+  				</li>
+					<li><a class="about" href="about.html">About Us</a></li>
+					<li><a class="contact" href="contact.html">Contact Us</a></li>
+					<li><a class="signup" href="login.html">Log In</a></li>
+					<li><a class="signin" href="signup.html">Sign Up</a></li>
+					<li><a class="cart" href="order.html"><img src="https://png.icons8.com/androidL/48/checkout.png" alt="cart" id="cart"></a></li><!--Order page is represented by a shopping cart to show that you can checkout meals from that page.-->
+				</ul>
+			</div>
+			<span id="hamburger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span><!--Used to open the Sidenav-->
+			<div id="sideNav" class="sidenav"><!--Hidden on big displays and appears only on smaller displays-->
+  			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><!--Button to close the sidenav-->
+  			<a href="index.html" id="homesidelink">Home</a><!--Links for Side navigation. Contains: A La Carte, Meal Bundles, About Us, Contact Us, Log In, Sign Up and Order-->
+				<hr>
+  			<a href="alacarte.html">À La Carte</a>
+				<hr>
+				<a href="bundles.html">Meal Bundles</a>
+				<hr>
+  			<a href="order.html">Order</a>
+				<hr>
+  			<a href="login.html">Log In</a>
+				<hr>
+				<a href="signup.html">Sign Up</a>
+				<hr>
+				<a href="about.html">About Us</a>
+				<hr>
+				<a href="contact.html">Contact Us</a>
+				<hr>
+				<a href="Brand.html">Brand Resources</a>
+			</div>
+		</div>
+	</nav>
+
+	<div class="descriptionbox">
+		<!--This div is the whole box and order button-->
+		<div class="descriptioncontent">
+			<div class="food">
+				<img src="images/thumbs800/pasta_shutterstock_626506274_800px_.jpg" alt="Vegetarian Cavatappi Pasta">
+			</div>
+		<!--If you change the title MAKE SURE to change the alt too.-->
+			<div class="descriptiontext">
+				<h1>Vegetarian Cavatappi Pasta</h1>
+				<p>
+					Cavatappi pasta mixed with sliced fresh okra, cucumbers, and seedless black olives.
+				</p>
+				<h2 class="price">$9</h2>
+			</div>
+		</div>
+			<!--
+				ok this is pretty important, we have more than one css for the description
+				pages, we have 7. So if you edit the description of an item by alot or change
+				the price from one's to ten's or vice versa, then make sure to change the css
+				or the alignment will look wierd, especially the order button.
+
+				in each description css, I put the uses for it on the top. For example,
+				description.css is for description with 3 lines, and prices in the tens.
+	  	-->
+		</div>
+		<div class="belowbox">
+			<div class="button">
+				<button type="submit" class="orderbtn" onclick="window.location.href='order.html'">Order Now</button>
+			</div>
+			<div class="back">
+				<a href="alacarte.html">&#9665; Back To Menu</a>
+			</div>
+		</div>
+
+
+
+
+		<footer>
+			<!--Footer is used in addition to the navigation bar as a way for users to easily navigate our website.
+			In addition to the links to other pages of the website, footer also conatins useful information like our address, phone number and email address.
+			We also have links to our social media accounts for our users to easily access us via non-traditional mediums of communication-->
+			<div class="containerfooter"><!--Purely used for positioning purposes and has no visual appearence-->
+				<div class="footleft"><!--Leftmost part of footer. Contains Logo and Social Media links-->
+					<div id="footlogo"><!--DIV containing the logo of the company. Container DIV used for positioning purposes-->
+						<a href="index.html"><!--The logo image is placed in a link which will enable the users to get to home page quickly-->
+							<img src="images/Paoletti's_Kitchen_Logo_onlytxt_250x111_white.png" alt="Paoletti's Kitchen Logo"><!--Logo image in PNG format-->
+						</a>
+					</div>
+					<div class="social"><!--Links to four of our Social Media accounts. Through Social Media users can reach us quickly and also keep updated with new features and promotional offers we post online-->
+						<a href="https://facebook.com/paolettis.kitchen.7" class="sociallogo" target="_blank"><img src="https://png.icons8.com/ios/36/ffffff/facebook.png" alt="Facebook Logo" onmouseover="this.src='https://png.icons8.com/ios/36/00e676/facebook.png'" onmouseout="this.src='https://png.icons8.com/ios/36/ffffff/facebook.png'"></a>
+						<a href="https://twitter.com/KitchenPaoletti" class="sociallogo" target="_blank"><img src="https://png.icons8.com/ios/36/ffffff/twitter.png" alt="Twitter Logo" onmouseover="this.src='https://png.icons8.com/ios/36/00e676/twitter.png'" onmouseout="this.src='https://png.icons8.com/ios/36/ffffff/twitter.png'"></a>
+						<a href="https://www.instagram.com/paolettiskitchenofficial/" class="sociallogo" target="_blank"><img src="https://png.icons8.com/ios/36/ffffff/instagram-new.png" alt="Instagram Logo" onmouseover="this.src='https://png.icons8.com/ios/36/00e676/instagram-new.png'" onmouseout="this.src='https://png.icons8.com/ios/36/ffffff/instagram-new.png'"></a>
+						<a href="https://www.youtube.com/channel/UCetr1ndjTt4md80vra10YCQ?sub_confirmation=1" class="sociallogo" target="_blank"><img src="https://png.icons8.com/ios/36/ffffff/youtube-play.png" alt="Instagram Logo" onmouseover="this.src='https://png.icons8.com/ios/36/00e676/youtube-play.png'" onmouseout="this.src='https://png.icons8.com/ios/36/ffffff/youtube-play.png'"></a>
+					</div>
+				</div>
+				<div class="footmidleft"><!--Contains the links to our all our main pages: Home, Menu, Order, Log In, and Sign Up-->
+					<ul class="linklist"><!--ul element to create a list of links-->
+						<li class="listtitle"><h2 style="font-weight: 500;">Navigation</h2></li><!--This is the title of links and thus needs to be bolded-->
+						<li><a href="index.html">Home</a></li>
+						<li><a href="alacarte.html">À La Carte</a></li>
+						<li><a href="bundles.html">Meal Bundles</a></li>
+						<li><a href="order.html">Order</a></li>
+						<li><a href="login.html">Log In</a></li>
+						<li><a href="signup.html">Sign Up</a></li>
+					</ul>
+				</div>
+				<div class="footmidright"><!--Contains the links to our all our additional pages: About Us, Contact Us, and Brand-->
+					<ul class="linklist"><!--ul element to create a list of links-->
+						<li class="listtitle"><h2 style="font-weight: 500;">Learn More</h2></li><!--This is the title of links and thus needs to be bolded-->
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+						<li><a href="Brand.html">Brand Resources</a></li>
+					</ul>
+				</div>
+				<div class="footright"><!--Rightmost part of footer. Contains contact information like Address, Phone Number and Email-->
+					<div class="contactinfo">
+						<!--Physical Address even though this is an E-business is required. Customers should be given all the means to reach us with thier complaints/feedbacks etc.
+						Phone Number is also provided for users who prefer to talk to a human being for their complaints/feedbacks-->
+						<p>3535 E Mayo Blvd<br>Phoenix, AZ<br>85050<br><br>+1 (123) 456-7890<br><br><a href="mailto:paolettiskitchen@gmail.com">paolettiskitchen@gmail.com</a></p>
+					</div>
+				</div>
+			</div>
+
+
+			<div id="copyright"><!--Copyright information. Having an updated copyright is very crucial to our business. It is a way to legitimize our business-->
+				<h5>&copy; 2018 Paoletti's Kitchen</h5>
+			</div>
+
+
+			<div class="footerbottom">
+				<div class="bottomcont">
+					<p>&nbsp;</p>
+					<p>
+						FBLA e-Business website designed and developed by Pinnacle High School Web Design Students: <span>Bader Alrifai</span>, <span>Ninad Kulkarni</span> and <span>Hayden Paoletti</span>.
+					</p>
+					<p>
+						All site's images purchased from <a href="https://www.shutterstock.com/" target="_blank">Shutterstock</a> unless otherwise indicated. No templates were used in the creation of this website. Click <a href="resources/Assurance_Statement_Pinnacle_Bader_Alrifai_Ninad_Kulkarni_Hayden_Paoletti_.pdf" target="_blank">HERE</a> to view team's PDF <em>Statement of Assurance</em>.
+					</p>
+					<p>
+						Icon pack by <a id="iconcredit" href="https://icons8.com" target="_blank">Icons8</a>
+					</p>
+					<p id="codecomment">
+						To see code and comments, right click(or ctrl+click) and select "View Page Source"
+					</p>
+					<p>
+						<a href="http://validator.w3.org/check?uri=referer" target="_blank"><img src="images/validHTML5.png" alt="HTML Valid"/></a>
+						<img src="https://png.icons8.com/ios/30/ffffff/chevron-left-filled.png" alt="leftarrow"> Click here to view valid HTML5 code.
+					</p>
+					<p>
+						<a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank"><img src="images/validCSS.png" alt="CSS Valid Logo"/></a>
+						<img src="https://png.icons8.com/ios/30/ffffff/chevron-left-filled.png" alt="leftarrow"> Click here to view valid CSS3 code.
+					</p>
+					<p>
+						Website hosted by <a href="https://www.biggiweb.com/" target="_blank">Biggiweb Internet Solutions</a>.
+					</p>
+					<p>&nbsp;</p>
+				</div>
+			</div>
+		</footer>
+
+		<script src="js/sidenav.js"></script>
+
+
+	</body>
+	</html>

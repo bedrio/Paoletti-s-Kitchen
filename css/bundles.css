@@ -1,0 +1,88 @@
+.header{
+	background-image: url("https://static.pexels.com/photos/349608/pexels-photo-349608.jpeg");
+ 	background-attachment: fixed;
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position:static;
+}
+#textbg{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+#textbg h1{
+	font-weight: 900;
+	font-size: 600%;
+	text-align: center;
+	color: #212121;
+	margin: 0px;
+}
+#textbg h3{
+	margin: 0px;
+	font-weight: 300;
+	font-size: 300%;
+	text-align: center;
+	color: #212121;
+}
+.descriptionbox{
+  width: 1000px;
+	display: block;
+	margin: auto;
+	margin-top: 5%;
+	box-shadow: 0 6px 28px rgba(0,0,0,0.25), 0 2px 10px rgba(0,0,0,0.22);
+	border-radius: 5px;
+}
+.descriptioncontent{
+  display: flex;
+  padding: 50px 50px;
+}
+.food{
+  flex: 0.65;
+}
+.food img{
+  width: 300px;
+  height: 300px;
+  margin: 0px;
+}
+.descriptiontext{
+  flex: 1;
+}
+.descriptiontext h1{
+  color: #212121;
+  font-weight: 500;
+  font-size: 300%;
+  margin: 0px;
+  margin-top: 20px;
+}
+.descriptiontext h2{
+  color: #00bfa5;
+  font-weight: 300;
+  font-size: 300%;
+  margin: 0px;
+  margin-top: 0px;
+  text-align: right;
+}
+.descriptiontext p{
+  color: #212121;
+  font-weight: 300;
+  font-size: 26px;
+}
+.now{
+	display: block;
+	text-align: center;
+	margin-top: 100px;
+}
+.letsbtn{
+	border: none;
+	cursor: pointer;
+	padding: 20px 40px;
+	background-color: #00bfa5;
+	color: #ffffff;
+	border-radius: 10px;
+	border: none;
+	color: #fff;
+	font-size: 200%;
+}
+.letsbtn:hover{
+	background-color: #1DE9B6;
+}

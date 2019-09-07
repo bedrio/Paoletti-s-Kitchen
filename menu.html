@@ -1,0 +1,583 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Paoletti's Kitchen | Menu</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,500" rel="stylesheet">
+	<link rel="stylesheet" href="css/menu.css">
+	<link rel="shortcut icon" type="image/png" href="images/favicon.png">
+</head>
+
+<body><!--Contains website content-->
+
+
+	<div class="navbar"> <!--Navigation bar should always be on top-->
+		<div class="logo"> <!--Company logo. make sure it is centered-->
+			<a href="index.html"><img src="images/Paoletti's_Kitchen_Logo250.png" alt="Paoletti's Kitchen" width="222" height="70"></a>
+		</div>
+		<div class="navlinks"> <!--Links for navigation bar. 4 texts + 2 icons-->
+			<a class="homebtn" href="index.html"><img src="https://png.icons8.com/ios/48/000000/home-filled.png" alt="home" width="40" height="40"></a>
+			<table class="listleft">
+				<tr>
+					<td><a class="active" href="menu.html">Menu</a></td><!--Active link should be highlighted-->
+					<td><a class="about" href="about.html">About Us</a></td>
+				</tr>
+			</table>
+			<table class="listright">
+				<tr>
+					<td><a class="signup" href="login.html">Log In</a></td>
+					<td><a class="signin" href="signup.html">Sign Up</a></td>
+				</tr>
+			</table>
+			<a class="cart" href="order.html"><img src="https://png.icons8.com/androidL/48/checkout.png" alt="cart" width="48" height="48"></a>
+		</div>
+	</div>
+
+
+	<div class="header">
+		<div id="textbg">
+			<h1>Menu</h1>
+		</div>
+	</div>
+
+
+  <div class="menucards"><!--Filters for Menu "Cards". 7 filters: Show All, Beef, Chicken, Pork, Seafood, Vegetarian and Dessert-->
+    <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Filters</button>
+			<button onclick="myFunction()" class="filterdown"></button>
+      <div id="myDropdown" class="dropdown-content">
+        <ul>
+        <li><button class="btn active" onclick="filterSelection('all')">Show All</button></li>
+        <li><button class="btn" onclick="filterSelection('beef')">Beef</button></li>
+        <li><button class="btn" onclick="filterSelection('chicken')">Chicken</button></li>
+        <li><button class="btn" onclick="filterSelection('pork')">Pork</button></li>
+        <li><button class="btn" onclick="filterSelection('sea')">Seafood</button></li>
+        <li><button class="btn" onclick="filterSelection('vegetarian')">Vegetarian</button></li>
+				<li><button class="btn" onclick="filterSelection('dessert')">Dessert</button></li>
+        </ul>
+      </div>
+    </div>
+    <script>
+    /* When the user clicks on the button,
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+    </script>
+		<script>
+    /* When the user clicks on the button,
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.filterdown')) {
+
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+    </script>
+    </div>
+
+
+    <div class="row"><!--Parent div of all cards. Used for filter-->
+			<!--Every card div "column" is followed by the filter it belongs to-->
+			<!--All divs named same because all have same design-->
+			<div class="column beef">
+				<a href="1.html">
+				<div class="content">
+					<div class="hovercontent">
+						<h2>Steak tips with potatoes and a small salad</h2>
+						<h1>Learn More &#9654;</h1>
+					</div>
+					<div class="contentstatic">
+						<img src="images/thumbs/chefspecial.jpg" class="label" alt="chef's special">
+          	<img src="images/thumbs/beef_shutterstock_588296435_200px.jpg" alt="Steak Tips">
+          	<h2>Steak Tips</h2>
+					</div>
+        </div>
+				</a>
+      </div>
+      <div class="column beef">
+				<a href="2.html">
+        <div class="content">
+					<div class="hovercontent">
+						<h2>Filet mignon steak with rosemary potatoes and steamed vegetables</h2>
+						<h1>Learn More &#9654;</h1>
+					</div>
+					<div class="contentstatic">
+						<img src="images/thumbs/blank.jpg" class="label" alt="blank">
+          	<img src="images/thumbs/beef_shutterstock_653239498_200px.jpg" alt="Filet Mignon Steak">
+						<h2>Filet Mignon Steak</h2>
+					</div>
+        </div>
+				</a>
+      </div>
+      <div class="column beef">
+				<a href="3.html">
+        <div class="content">
+					<div class="hovercontent">
+						<h2>Two pieces of sirloin steak with carrots, Asparagus, and lettuce</h2>
+						<h1>Learn More &#9654;</h1>
+					</div>
+					<div class="contentstatic">
+						<img src="images/thumbs/popular.jpg" class="label" alt="popular">
+          	<img src="images/thumbs/beef_shutterstock_659169151_200px.jpg" alt="Sirloin Steak">
+          	<h2>Sirloin Steak</h2>
+					</div>
+        </div>
+				</a>
+      </div>
+      <div class="column chicken">
+				<a href="4.html">
+        <div class="content">
+					<div class="hovercontent">
+						<h2>Roasted chicken thigh with baked potato and rice</h2>
+						<h1>Learn More &#9654;</h1>
+					</div>
+					<div class="contentstatic">
+						<img src="images/thumbs/chefspecial.jpg" class="label" alt="chef's special">
+          	<img src="images/thumbs/chicken_shutterstock_584913460_200px.jpg" alt="Roasted Chicken Thigh">
+          	<h2>Roasted Chicken Thigh</h2>
+					</div>
+        </div>
+				</a>
+      </div>
+      <div class="column chicken">
+				<a href="5.html">
+        <div class="content">
+					<div class="hovercontent">
+						<h2>Pan seared chicken breast with grilled potatoes and a cherry salad</h2>
+						<h1>Learn More &#9654;</h1>
+					</div>
+					<div class="contentstatic">
+						<img src="images/thumbs/blank.jpg" class="label" alt="blank">
+          	<img src="images/thumbs/chicken_shutterstock_599926442_200px.jpg" alt="Pan Seared Chicken Fillet">
+          	<h2>Pan Seared Chicken Breast</h2>
+					</div>
+        </div>
+				</a>
+      </div>
+      <div class="column chicken">
+				<a href="6.html">
+        <div class="content">
+					<div class="hovercontent">
+						<h2>Grilled chicken breast with coleslaw and vegetables</h2>
+						<h1>Learn More &#9654;</h1>
+					</div>
+					<div class="contentstatic">
+						<img src="images/thumbs/popular.jpg" class="label" alt="popular">
+          	<img src="images/thumbs/chicken_shutterstock_600142967_200px.jpg" alt="Grilled chicken fillet">
+          	<h2>Grilled Chicken Breast</h2>
+					</div>
+        </div>
+				</a>
+      </div>
+      <div class="column chicken">
+				<a href="7.html">
+        <div class="content">
+					<div class="hovercontent">
+						<h2>Two chicken kebabs with french fries and rice</h2>
+						<h1>Learn More &#9654;</h1>
+					</div>
+					<div class="contentstatic">
+						<img src="images/thumbs/new.jpg" class="label" alt="new">
+          	<img src="images/thumbs/chicken_shutterstock_691043119_200px.jpg" alt="Chicken Kebab">
+          	<h2>Chicken Kebab</h2>
+					</div>
+        </div>
+				</a>
+      </div>
+      <div class="column sea">
+				<a href="8.html">
+        <div class="content">
+					<div class="hovercontent">
+						<h2>Grilled salmon with boiled potatoes and asparagus</h2>
+						<h1>Learn More &#9654;</h1>
+					</div>
+					<div class="contentstatic">
+						<img src="images/thumbs/blank.jpg" class="label" alt="blank">
+          	<img src="images/thumbs/fish_shutterstock_561837145_200px.jpg" alt="Grilled Salmon">
+          	<h2>Grilled Salmon</h2>
+					</div>
+        </div>
+				</a>
+      </div>
+      <div class="column sea">
+				<a href="9.html">
+        <div class="content">
+					<div class="hovercontent">
+						<h2>Sauteed salmon with seasoned potatoes and a small salad</h2>
+						<h1>Learn More &#9654;</h1>
+					</div>
+					<div class="contentstatic">
+						<img src="images/thumbs/chefspecial.jpg" class="label" alt="chef's special">
+          	<img src="images/thumbs/fish_shutterstock_583438858_200px.jpg" alt="Sauteed Salmon">
+          	<h2>Sauteed Salmon</h2>
+					</div>
+        </div>
+				</a>
+      </div>
+      <div class="column sea">
+				<a href="10.html">
+        <div class="content">
+					<div class="hovercontent">
+						<h2>Roasted cod with white rice and a salad</h2>
+						<h1>Learn More &#9654;</h1>
+					</div>
+					<div class="contentstatic">
+						<img src="images/thumbs/blank.jpg" class="label" alt="blank">
+          	<img src="images/thumbs/fish_shutterstock_630362303_200px.jpg" alt="Roasted Cod">
+          	<h2>Roasted Cod</h2>
+					</div>
+        </div>
+				</a>
+      </div>
+      <div class="column sea">
+				<a href="11.html">
+        <div class="content">
+					<div class="hovercontent">
+						<h2>Grilled cod with potato wedges and vegetables</h2>
+						<h1>Learn More &#9654;</h1>
+					</div>
+					<div class="contentstatic">
+						<img src="images/thumbs/blank.jpg" class="label" alt="blank">
+          	<img src="images/thumbs/fish_shutterstock_748930306_200px.jpg" alt="Grilled Cod">
+          	<h2>Grilled Cod</h2>
+					</div>
+        </div>
+				</a>
+      </div>
+      <div class="column vegetarian">
+				<a href="12.html">
+        <div class="content">
+					<div class="hovercontent">
+						<h2>Fusilli pasta with fruits and vegetables</h2>
+						<h1>Learn More &#9654;</h1>
+					</div>
+					<div class="contentstatic">
+						<img src="images/thumbs/blank.jpg" class="label" alt="blank">
+          	<img src="images/thumbs/pasta_shutterstock_617951477_200px.jpg" alt="Vegetarian Fusilli Pasta">
+          	<h2>Vegetarian Fusilli Pasta</h2>
+					</div>
+        </div>
+				</a>
+      </div>
+      <div class="column vegetarian">
+				<a href="13.html">
+        <div class="content">
+					<div class="hovercontent">
+						<h2>Dumplings stuffed with cheese and mushrooms</h2>
+						<h1>Learn More &#9654;</h1>
+					</div>
+					<div class="contentstatic">
+						<img src="images/thumbs/blank.jpg" class="label" alt="blank">
+          	<img src="images/thumbs/pasta_shutterstock_626443775_200px.jpg" alt="Vegetarian Dumplings">
+          	<h2>Vegetarian Dumplings</h2>
+					</div>
+        </div>
+				</a>
+      </div>
+      <div class="column vegetarian">
+				<a href="14.html">
+        <div class="content">
+					<div class="hovercontent">
+						<h2>Fusilli pasta cooked with marinara sauce, with tofu and vegetables</h2>
+						<h1>Learn More &#9654;</h1>
+					</div>
+					<div class="contentstatic">
+						<img src="images/thumbs/new.jpg" class="label" alt="new">
+          	<img src="images/thumbs/pasta_shutterstock_657989317_200px.jpg" alt="Vegetarian Fusilli Marinara">
+          	<h2>Vegetarian Fusilli Marinara</h2>
+					</div>
+        </div>
+				</a>
+      </div>
+      <div class="column beef">
+				<a href="15.html">
+        <div class="content">
+					<div class="hovercontent">
+						<h2>Meatballs with pasta cooked with marinara sauce</h2>
+						<h1>Learn More &#9654;</h1>
+					</div>
+					<div class="contentstatic">
+						<img src="images/thumbs/blank.jpg" class="label" alt="blank">
+          	<img src="images/thumbs/pasta_shutterstock_686939362_200px.jpg" alt="Meatballs Pasta">
+          	<h2>Meatballs Pasta</h2>
+					</div>
+        </div>
+				</a>
+      </div>
+      <div class="column pork">
+				<a href="16.html">
+        <div class="content">
+					<div class="hovercontent">
+						<h2>Fried breaded pork chops with potatoes and salad</h2>
+						<h1>Learn More &#9654;</h1>
+					</div>
+					<div class="contentstatic">
+						<img src="images/thumbs/popular.jpg" class="label" alt="popular">
+          	<img src="images/thumbs/pork_shutterstock_583487023_200px.jpg" alt="Fried Breaded Pork Chops">
+          	<h2>Fried Breaded Pork Chops</h2>
+					</div>
+        </div>
+				</a>
+      </div>
+      <div class="column pork">
+				<a href="17.html">
+        <div class="content">
+					<div class="hovercontent">
+						<h2>Three pan seared sausages with french fries and a small salad</h2>
+						<h1>Learn More &#9654;</h1>
+					</div>
+					<div class="contentstatic">
+						<img src="images/thumbs/blank.jpg" class="label" alt="blank">
+          	<img src="images/thumbs/pork_shutterstock_591046565_200px.jpg" alt="Pan seared Sausages">
+          	<h2>Pan Seared Sausages</h2>
+					</div>
+        </div>
+				</a>
+      </div>
+      <div class="column pork">
+				<a href="18.html">
+        <div class="content">
+					<div class="hovercontent">
+						<h2>Two grilled pork steaks with french fries and vegetables</h2>
+						<h1>Learn More &#9654;</h1>
+					</div>
+					<div class="contentstatic">
+						<img src="images/thumbs/blank.jpg" class="label" alt="blank">
+          	<img src="images/thumbs/pork_shutterstock_609046568_200px.jpg" alt="Grilled Steaks">
+          	<h2>Grilled Steaks</h2>
+					</div>
+        </div>
+				</a>
+      </div>
+      <div class="column pork">
+				<a href="19.html">
+        <div class="content">
+					<div class="hovercontent">
+						<h2>Grilled Southwestern pork steak with french fries and vegetables</h2>
+						<h1>Learn More &#9654;</h1>
+					</div>
+					<div class="contentstatic">
+						<img src="images/thumbs/new.jpg" class="label" alt="new">
+          	<img src="images/thumbs/pork_shutterstock_639812350_200px.jpg" alt="Southwestern Steak">
+          	<h2>Southwestern Steak</h2>
+					</div>
+        </div>
+				</a>
+      </div>
+			<div class="column vegetarian">
+				<a href="20.html">
+        <div class="content">
+					<div class="hovercontent">
+						<h2>Vegetarian cavatappi pasta with sliced vegetables</h2>
+						<h1>Learn More &#9654;</h1>
+					</div>
+					<div class="contentstatic">
+						<img src="images/thumbs/chefspecial.jpg" class="label" alt="chef's special">
+          	<img src="images/thumbs/pasta_shutterstock_626506274_200px.jpg" alt="Vegetarian Cavatappi Pasta">
+          	<h2>Vegetarian Cavatappi Pasta</h2>
+					</div>
+        </div>
+				</a>
+      </div>
+			<div class="column dessert">
+				<a href="dessert1.html">
+        <div class="content">
+					<div class="hovercontent">
+						<h2>cheesecake with a strawberry</h2>
+						<h1>Learn More &#9654;</h1>
+					</div>
+					<div class="contentstatic">
+						<img src="images/thumbs/blank.jpg" class="label" alt="blank">
+          	<img src="images/thumbs/shutterstock_dessert_5_200px_.jpg" alt="Cheesecake">
+          	<h2>Cheesecake</h2>
+					</div>
+        </div>
+				</a>
+      </div>
+			<div class="column dessert">
+				<a href="dessert2.html">
+        <div class="content">
+					<div class="hovercontent">
+						<h2>Three-layered strawberry shortcake with raspberry</h2>
+						<h1>Learn More &#9654;</h1>
+					</div>
+					<div class="contentstatic">
+						<img src="images/thumbs/blank.jpg" class="label" alt="blank">
+          	<img src="images/thumbs/shutterstock_dessert_6_200px_.jpg" alt="Strawberry Shortcake">
+          	<h2>Strawberry Shortcake</h2>
+					</div>
+        </div>
+				</a>
+      </div><div class="column dessert">
+				<a href="dessert3.html">
+        <div class="content">
+					<div class="hovercontent">
+						<h2>Four-layered chocolate cake</h2>
+						<h1>Learn More &#9654;</h1>
+					</div>
+					<div class="contentstatic">
+						<img src="images/thumbs/blank.jpg" class="label" alt="blank">
+          	<img src="images/thumbs/shutterstock_124144645_crop-7_200px_.jpg" alt="Chocolate Cake">
+          	<h2>Chocolate Cake</h2>
+					</div>
+        </div>
+				</a>
+      </div><div class="column dessert">
+				<a href="dessert4.html">
+        <div class="content">
+					<div class="hovercontent">
+						<h2>Brownies with walnuts and caramel</h2>
+						<h1>Learn More &#9654;</h1>
+					</div>
+					<div class="contentstatic">
+						<img src="images/thumbs/blank.jpg" class="label" alt="blank">
+          	<img src="images/thumbs/shutterstock_dessert_7_200px_.jpg" alt="Brownies">
+          	<h2>Brownies</h2>
+					</div>
+        </div>
+				</a>
+      </div>
+  <!-- END GRID -->
+    </div>
+
+  <!-- END MAIN -->
+ <script>
+  filterSelection("all")
+  function filterSelection(c) {
+    var x, i;
+    x = document.getElementsByClassName("column");
+    if (c == "all") c = "";
+    for (i = 0; i < x.length; i++) {
+      w3RemoveClass(x[i], "show");
+      if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+    }
+  }
+
+  function w3AddClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+    }
+  }
+
+  function w3RemoveClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      while (arr1.indexOf(arr2[i]) > -1) {
+        arr1.splice(arr1.indexOf(arr2[i]), 1);
+      }
+    }
+    element.className = arr1.join(" ");
+  }
+
+
+  // Add active class to the current button (highlight it)
+  var btnContainer = document.getElementById("myBtnContainer");
+  var btns = btnContainer.getElementsByClassName("btn");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function(){
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+    });
+  }
+  </script>
+
+
+	<footer><!--2 parts of the footer. Top is company's footer with social media, navigation and contact info. Bottom is details about the project including: statement of assurance and code validators-->
+		<div class="footercontent">
+			<div class="footleft">
+				<div id="footlogo">
+					<img src="images/Paoletti's_Kitchen_Logo_onlytxt_250x111_white.png" alt="Paoletti's Kitchen Logo">
+				</div>
+				<div class="social">
+					<a href="https://m.facebook.com/paolettis.kitchen.7"><img src="https://png.icons8.com/ios/36/ffffff/facebook.png" alt="Facebook Logo" onmouseover="this.src='https://png.icons8.com/ios/36/00e676/facebook.png'" onmouseout="this.src='https://png.icons8.com/ios/36/ffffff/facebook.png'"></a>
+					<a href="https://twitter.com/KitchenPaoletti" id="secondlogo"><img src="https://png.icons8.com/ios/36/ffffff/twitter.png" alt="Twitter Logo" onmouseover="this.src='https://png.icons8.com/ios/36/00e676/twitter.png'" onmouseout="this.src='https://png.icons8.com/ios/36/ffffff/twitter.png'"></a>
+					<a href="https://www.instagram.com/paolettiskitchenofficial/" id="thirdlogo"><img src="https://png.icons8.com/ios/36/ffffff/instagram-new.png" alt="Instagram Logo" onmouseover="this.src='https://png.icons8.com/ios/36/00e676/instagram-new.png'" onmouseout="this.src='https://png.icons8.com/ios/36/ffffff/instagram-new.png'"></a>
+				</div>
+			</div>
+			<div class="footmidleft">
+				<ul class="leftlist">
+					<li><h2 style="font-weight: 500;">Navigation</h2></li>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="menu.html">Menu</a></li>
+					<li><a href="order.html">Order</a></li>
+					<li><a href="login.html">Log In</a></li>
+					<li><a href="signup.html">Sign Up</a></li>
+				</ul>
+			</div>
+			<div class="footmidright">
+				<ul class="rightlist">
+					<li><h2 style="font-weight: 500;">Learn More</h2><li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</div>
+			<div class="footright">
+				<div class="addressinfo">
+					<p>3535 E Mayo Blvd<br>Phoenix, AZ<br>85050<br><br>+1 (123) 456-7890<br><br><a href="mailto:paolettiskitchen@gmail.com">paolettiskitchen@gmail.com</a></p>
+				</div>
+			</div>
+		</div>
+		<div id="copyright"><!--Copyright info. Make sure to update for new year-->
+			<h5>&copy; 2018 Paoletti's Kitchen</h5>
+		</div>
+
+		<div class="footerbottom">
+			<div class="bottomcont">
+				<p>&nbsp;</p>
+				<p>
+					FBLA e-Business website designed and developed by Pinnacle High School Web Design Students: <em>Bader Alrifai</em>, <em>Ninad Kulkarni</em> and <em>Hayden Paoletti</em>.
+				</p>
+				<p>
+					All site's images purchased from <a href="https://www.shutterstock.com/" target="_blank">Shutterstock</a> unless otherwise indicated. No templates were used in the creation of this website. Click <a href="resources/Assurance_Statement_Pinnacle_Bader_Alrifai_Ninad_Kulkarni_Hayden_Paoletti_.pdf" target="_blank">HERE</a> to view team's PDF <em>Statement of Assurance</em>.
+				</p>
+				<p>Icon pack by <a id="iconcredit" href="https://icons8.com" target="_blank">Icons8</a></p>
+				<p>
+					<a href="http://validator.w3.org/check?uri=referer" target="_blank"><img src="images/validHTML5.png" alt="HTML Valid"/></a>
+				</p>
+				<p>
+					<a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank"><img src="images/validCSS.png" alt="CSS Valid Logo"/></a>
+				</p>
+				<p>
+					Website hosted by <a href="https://www.biggiweb.com/" target="_blank">Biggiweb Internet Solutions</a>.
+				</p>
+				<p>&nbsp;</p>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

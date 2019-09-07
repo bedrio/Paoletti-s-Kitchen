@@ -1,0 +1,126 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 479px){
+  .form{
+    width: calc(100% - 50px);
+  }
+  .formtitle h1{
+  	font-size: 300%;
+  }
+  #formfull{
+    flex-direction: column;
+  }
+  .row{
+  	display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0px;
+    margin-top: 30px;
+  }
+  .rowfakediv{
+    margin: 0px;
+    margin-top: 30px;
+    margin-bottom: -10px;
+  }
+  .rowfakedivsms{
+    margin: 0px;
+    margin-top: 30px;
+    margin-bottom: -10px;
+  }
+  #formhr{
+    display: none;
+  }
+  .contactsocial a{
+    padding: 5px;
+  }
+  .input {
+    max-width: 100%;
+  	width: 100%;
+  }
+}
+@media only screen and (min-device-width : 480px) and (max-device-width : 767px){
+  .form{
+    width: calc(100% - 50px);
+  }
+  .formtitle h1{
+  	font-size: 300%;
+  }
+  #formfull{
+    flex-direction: column;
+  }
+  .row{
+  	display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0px;
+    margin-top: 30px;
+  }
+  .rowfakediv{
+    margin: 0px;
+    margin-top: 30px;
+    margin-bottom: -10px;
+  }
+  .rowfakedivsms{
+    margin: 0px;
+    margin-top: 30px;
+    margin-bottom: -10px;
+  }
+  #formhr{
+    display: none;
+  }
+  .input {
+    max-width: 100%;
+  	width: 100%;
+  }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px){
+  .form{
+    width: calc(100% - 50px);
+  }
+  .formtitle h1{
+  	font-size: 300%;
+  }
+  #formfull{
+    flex-direction: column;
+  }
+  .row{
+  	display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0px;
+    margin-top: 30px;
+  }
+  .rowfakediv{
+    margin: 0px;
+    margin-top: 30px;
+    margin-bottom: -10px;
+  }
+  .rowfakedivsms{
+    margin: 0px;
+    margin-top: 30px;
+    margin-bottom: -10px;
+  }
+  #formhr{
+    display: none;
+  }
+  .input {
+    max-width: 100%;
+  	width: 100%;
+  }
+}
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1280px){
+
+}
+@media only screen and (min-device-width : 1281px) and (max-device-width : 1439px){
+
+}
+@media only screen and (min-device-width : 1440px) and (max-device-width : 1823px){
+
+}
+@media only screen and (min-device-width : 1824px) and (max-device-width : 1919px){
+
+}
+@media only screen and (min-device-width : 1920px) and (max-device-width : 2047px){
+
+}
+@media only screen and (min-device-width : 2048px) and (max-device-width : 2560px){
+
+}

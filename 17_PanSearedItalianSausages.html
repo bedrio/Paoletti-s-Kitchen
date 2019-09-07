@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Paoletti's Kitchen | Flame Grilled Bratwurst</title>
+	<!--
+		If you change the name of a food item, MAKE SURE to change it in the <title>,
+		so the bookmarks and tab display the right name
+	-->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,500" rel="stylesheet">
+	<link rel="stylesheet" href="css/description.css">
+	<link rel="shortcut icon" type="image/png" href="images/favicon.png">
+</head>
+
+<body><!--Contains website content-->
+	<div class="navbar"> <!--Navigation bar should always be on top-->
+		<div class="logo"> <!--Company logo. make sure it is centered-->
+			<a href="index.html"><img src="images/Paoletti's_Kitchen_Logo250.png" alt="Paoletti's Kitchen" width="222" height="70"></a>
+		</div>
+		<div class="navlinks"><!--Links for navigation bar. 4 texts + 2 icons-->
+			<a class="homebtn" href="index.html"><img src="https://png.icons8.com/ios/48/000000/home-filled.png" alt="home" width="40" height="40"></a>
+			<table class="listleft">
+				<tr>
+					<td><a class="menu" href="menu.html">Menu</a></td>
+					<td><a class="about" href="about.html">About Us</a></td>
+				</tr>
+			</table>
+			<table class="listright">
+				<tr>
+					<td><a class="signup" href="login.html">Log In</a></td>
+					<td><a class="signin" href="signup.html">Sign Up</a></td>
+				</tr>
+			</table>
+			<a class="cart" href="order.html"><img src="https://png.icons8.com/androidL/48/checkout.png" alt="cart" width="48" height="48"></a>
+		</div>
+	</div>
+
+	<div class="description">
+		<!--This div is the whole box and order button, the back to menu is in another div-->
+
+		<img class="food" src="images/pork_shutterstock_591046565_800px_.jpg" alt="Pan Seared Sausages">
+		<!--If you change the title MAKE SURE to change the alt too.-->
+		<h2>Flame Grilled Bratwurst</h2>
+		<p>
+			Three flame grilled Bratwurts topped with grilled onion, along with
+			cherry tomato salad and french fries.
+		</p>
+		<!--
+			ok this is pretty important, we have more than one css for the description
+			pages, we have 7. So if you edit the description of an item by alot or change
+			the price from one's to ten's or vice versa, then make sure to change the css
+			or the alignment will look wierd, especially the order button.
+
+			in each description css, I put the uses for it on the top. For example,
+			description.css is for description with 3 lines, and prices in the tens.
+	  -->
+		<p class="price">$13</p>
+
+		<a href="order.html"><img class="order" src="images/ordernow.png" alt="order button"></a>
+
+	</div>
+
+<div class="back">
+	<a href="menu.html">
+		<p>&#9665; Back To Menu</p>
+	</a>
+
+</div>
+
+<footer>
+	<!--2 parts of the footer. Top is company's footer with social media,
+	navigation and contact info. Bottom is details about the project including:
+	statement of assurance and code validators-->
+	<div class="footercontent">
+		<div class="footleft">
+			<div id="footlogo">
+				<img src="images/Paoletti's_Kitchen_Logo_onlytxt_250x111_white.png" alt="Paoletti's Kitchen Logo">
+			</div>
+			<div class="social">
+				<a href="https://m.facebook.com/paolettis.kitchen.7"><img src="https://png.icons8.com/ios/36/ffffff/facebook.png" alt="Facebook Logo" onmouseover="this.src='https://png.icons8.com/ios/36/00e676/facebook.png'" onmouseout="this.src='https://png.icons8.com/ios/36/ffffff/facebook.png'"></a>
+				<a href="https://twitter.com/KitchenPaoletti" id="secondlogo"><img src="https://png.icons8.com/ios/36/ffffff/twitter.png" alt="Twitter Logo" onmouseover="this.src='https://png.icons8.com/ios/36/00e676/twitter.png'" onmouseout="this.src='https://png.icons8.com/ios/36/ffffff/twitter.png'"></a>
+				<a href="https://www.instagram.com/paolettiskitchenofficial/" id="thirdlogo"><img src="https://png.icons8.com/ios/36/ffffff/instagram-new.png" alt="Instagram Logo" onmouseover="this.src='https://png.icons8.com/ios/36/00e676/instagram-new.png'" onmouseout="this.src='https://png.icons8.com/ios/36/ffffff/instagram-new.png'"></a>
+			</div>
+		</div>
+		<div class="footmidleft">
+			<ul class="leftlist">
+				<li><h2 style="font-weight: 500;">Navigation</h2></li>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="menu.html">Menu</a></li>
+				<li><a href="order.html">Order</a></li>
+				<li><a href="login.html">Log In</a></li>
+				<li><a href="signup.html">Sign Up</a></li>
+			</ul>
+		</div>
+		<div class="footmidright">
+			<ul class="rightlist">
+				<li><h2 style="font-weight: 500;">Learn More</h2><li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</div>
+		<div class="footright">
+			<div class="addressinfo">
+				<p>3535 E Mayo Blvd<br>Phoenix, AZ<br>85050<br><br>+1 (123) 456-7890<br><br><a href="mailto:paolettiskitchen@gmail.com">paolettiskitchen@gmail.com</a></p>
+			</div>
+		</div>
+	</div>
+	<div id="copyright"><!--Copyright info. Make sure to update for new year-->
+		<h5>&copy; 2018 Paoletti's Kitchen</h5>
+	</div>
+
+	<div class="footerbottom">
+		<div class="bottomcont">
+			<p>&nbsp;</p>
+			<p>
+				FBLA e-Business website designed and developed by Pinnacle High School Web Design Students: <em>Bader Alrifai</em>, <em>Ninad Kulkarni</em> and <em>Hayden Paoletti</em>.
+			</p>
+			<p>
+				All site's images purchased from <a href="https://www.shutterstock.com/" target="_blank">Shutterstock</a> unless otherwise indicated. No templates were used in the creation of this website. Click <a href="resources/Assurance_Statement_Pinnacle_Bader_Alrifai_Ninad_Kulkarni_Hayden_Paoletti_.pdf" target="_blank">HERE</a> to view team's PDF <em>Statement of Assurance</em>.
+			</p>
+			<p>Icon pack by <a id="iconcredit" href="https://icons8.com" target="_blank">Icons8</a></p>
+			<p>
+				<a href="http://validator.w3.org/check?uri=referer" target="_blank"><img src="images/validHTML5.png" alt="HTML Valid"/></a>
+			</p>
+			<p>
+				<a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank"><img src="images/validCSS.png" alt="CSS Valid Logo"/></a>
+			</p>
+			<p>
+				Website hosted by <a href="https://www.biggiweb.com/" target="_blank">Biggiweb Internet Solutions</a>.
+			</p>
+			<p>&nbsp;</p>
+		</div>
+	</div>
+</footer>
+</body>
+</html>

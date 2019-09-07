@@ -1,0 +1,212 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 479px){
+  body{
+    background-color: #ffffff;
+    background-image: none;
+  }
+  .form{
+    width: calc(100% - 50px);
+  }
+  .formtitle h1{
+  	font-size: 300%;
+  }
+  .row{
+  	display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0px;
+    margin-top: 30px;
+  }
+  .rowfakediv{
+    margin: 0px;
+    margin-top: 30px;
+    margin-bottom: -10px;
+  }
+  #city{
+    margin-top: -30px;
+  }
+  .dontalready{
+    float: none;
+    text-align: center;
+    margin: 0px;
+    margin-top: 45px;
+  }
+  .forgot{
+    text-align: center;
+  }
+  .input {
+    max-width: 100%;
+  	width: 100%;
+  }
+  .btns{
+  	text-align: center;
+  }
+  .submitbtn{
+  	padding: 25px 45px;
+  }
+  #match{
+    position: static;
+    margin: auto;
+  }
+  #match ul{
+    display: inline;
+    vertical-align: middle;
+    padding: 10px;
+  }
+  #match img{
+    padding: 10px 0px 7px 0px;
+  }
+  #match h6{
+    padding-right: 5px;
+  }
+}
+
+@media only screen and (min-device-width : 480px) and (max-device-width : 767px){
+  body{
+    background-color: #ffffff;
+    background-image: none;
+  }
+  .form{
+    width: calc(100% - 50px);
+  }
+  .formtitle h1{
+  	font-size: 300%;
+  }
+  .row{
+  	display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0px;
+    margin-top: 30px;
+  }
+  .rowfakediv{
+    margin: 0px;
+    margin-top: 30px;
+    margin-bottom: -10px;
+  }
+  #city{
+    margin-top: -30px;
+  }
+  .dontalready{
+    float: none;
+    text-align: center;
+    margin: 0px;
+    margin-top: 45px;
+  }
+  .forgot{
+    text-align: center;
+  }
+  .input {
+    max-width: 100%;
+  	width: 100%;
+  }
+  .btns{
+  	text-align: center;
+  }
+  .submitbtn{
+  	padding: 25px 50px;
+  }
+  #match{
+    position: static;
+    margin: auto;
+  }
+  #match ul{
+    display: inline;
+    vertical-align: middle;
+    padding: 10px;
+  }
+  #match img{
+    padding: 10px 0px 7px 0px;
+  }
+  #match h6{
+    padding-right: 5px;
+  }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px){
+  body{
+    background-color: #ffffff;
+    background-image: none;
+  }
+  .form{
+    width: calc(100% - 50px);
+  }
+  .formtitle h1{
+  	font-size: 300%;
+  }
+  .row{
+  	display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0px;
+    margin-top: 30px;
+  }
+  .rowfakediv{
+    margin: 0px;
+    margin-top: 30px;
+    margin-bottom: -10px;
+  }
+  #city{
+    margin-top: -30px;
+  }
+  .dontalready{
+    float: none;
+    text-align: center;
+    margin: 0px;
+    margin-top: 45px;
+  }
+  .forgot{
+    text-align: center;
+  }
+  .input {
+    max-width: 100%;
+  	width: 100%;
+  }
+  .btns{
+  	text-align: center;
+  }
+  .submitbtn{
+  	padding: 25px 50px;
+  }
+  #match{
+    position: static;
+    margin: auto;
+  }
+  #match ul{
+    display: inline;
+    vertical-align: middle;
+    padding: 10px;
+  }
+  #match img{
+    padding: 10px 0px 7px 0px;
+  }
+  #match h6{
+    padding-right: 5px;
+  }
+}
+
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1280px){
+  #match{
+    right: 1%;
+  }
+}
+@media only screen and (min-device-width : 1281px) and (max-device-width : 1439px){
+  #match{
+    right: 1%;
+  }
+}
+@media only screen and (min-device-width : 1440px) and (max-device-width : 1823px){
+  #match{
+    right: 2%;
+  }
+}
+@media only screen and (min-device-width : 1824px) and (max-device-width : 1919px){
+
+}
+@media only screen and (min-device-width : 1920px) and (max-device-width : 2047px){
+
+}
+@media only screen and (min-device-width : 2048px) and (max-device-width : 2560px){
+  #match{
+    right: 20%;
+  }
+}

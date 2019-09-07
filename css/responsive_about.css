@@ -1,0 +1,83 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 479px){
+  .faq{
+  	width: calc(100% - 50px);
+  }
+  #aboutcontent p{
+  	width:calc(100% - 50px);
+  }
+  #textbg h1{
+  	font-size: 500%;
+  }
+  #textbg h3{
+  	font-size: 300%;
+  }
+  #aboutcontent p{
+  	font-size: 130%;
+  }
+  #trio{
+    width: 100%;
+    height: auto;
+  }
+}
+@media only screen and (min-device-width : 480px) and (max-device-width : 767px){
+  .faq{
+  	width: calc(100% - 50px);
+  }
+  #aboutcontent p{
+  	width:calc(100% - 50px);
+  }
+  #trio{
+    width: 100%;
+    height: auto;
+  }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px){
+  .faq{
+  	width: calc(100% - 50px);
+  }
+  #aboutcontent p{
+  	width:calc(100% - 50px);
+  }
+  #trio{
+    width: 100%;
+    height: auto;
+  }
+}
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1280px){
+  .faq{
+  	width: calc(100% - 100px);
+  }
+  #aboutcontent p{
+  	width:calc(100% - 100px);
+  }
+}
+@media only screen and (min-device-width : 1281px) and (max-device-width : 1439px){
+  .faq{
+  	width: calc(100% - 200px);
+  }
+  #aboutcontent p{
+  	width:calc(100% - 200px);
+  }
+}
+@media only screen and (min-device-width : 1440px) and (max-device-width : 1823px){
+  .faq{
+  	width: calc(100% - 200px);
+  }
+  #aboutcontent p{
+  	width:calc(100% - 200px);
+  }
+}
+@media only screen and (min-device-width : 1824px) and (max-device-width : 1919px){
+  .faq{
+  	width: calc(100% - 300px);
+  }
+  #aboutcontent p{
+  	width:calc(100% - 300px);
+  }
+}
+@media only screen and (min-device-width : 1920px) and (max-device-width : 2047px){
+
+}
+@media only screen and (min-device-width : 2048px) and (max-device-width : 2560px){
+
+}

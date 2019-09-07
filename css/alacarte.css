@@ -1,0 +1,202 @@
+.header{
+	background-image: url("https://static.pexels.com/photos/349608/pexels-photo-349608.jpeg");
+ 	background-attachment: fixed;
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position:static;
+}
+#textbg{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+#textbg h1{
+	font-weight: 900;
+	font-size: 600%;
+	text-align: center;
+	color: #212121;
+	margin: 0px;
+}
+#textbg h3{
+	margin: 0px;
+	font-weight: 300;
+	font-size: 300%;
+	text-align: center;
+	color: #212121;
+}
+* {
+    box-sizing: border-box;
+}
+.filterdropbtn {
+		background-color: #ffffff;
+	  border: none;
+	  cursor: pointer;
+		margin-top: 50px;
+		padding-bottom: 0px;
+		background-image: url("http://pvlsites.com/Kulkarni/FBLA/images/filters.png");
+		width: 93px;
+		height: 25px;
+}
+.filterdropdown {
+    position: relative;
+    display: flex;
+		margin-right: 16%;
+}
+.fakedivdropdown{
+  flex: 1;
+}
+.filterdropdowncontainer{
+	flex: 0;
+}
+ul{
+	list-style-type: none;
+}
+.filterdropdown-content {
+    display: none;
+    position: absolute;
+		text-align: right;
+    background-color: #ffffff;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 75px;
+    right: 0;
+}
+.btn{
+  border: none;
+  margin: 10px 14px 0px 0px;
+  background-color: #ffffff;
+  cursor: pointer;
+	font-size: 120%;
+}
+.btn:hover{
+  color: #00e676;
+}
+
+.show {
+	display:block;
+}
+
+
+
+
+.row a:link{
+	text-decoration: none;
+	color: #212121;
+}
+.row a:visited{
+	text-decoration: none;
+	color: #212121;
+}
+.row{
+	margin: auto;
+	max-width: 1280px;
+}
+/* Add padding BETWEEN each column */
+.column{
+	padding: 10px;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+/* Create three equal columns that floats next to each other */
+.column{
+	flex: 1;
+  display: none; /* Hide all elements by default */
+}
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content{
+	display: block;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 10px -1px #888888;
+	margin-top: 50px;
+	width: 300px;
+	height: 350px;
+	text-align: center;
+}
+.content img{
+	margin-top: 10px;
+}
+.label{
+	float: left;
+}
+.content h2{
+	padding: 20px 5px 20px 5px;
+	font-weight: 300;
+}
+.contentstatic h2{
+	margin-top: 27px;
+	background-color: #00bfa5;
+	color: #ffffff;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.contentstatic span{
+	font-weight: 900;
+}
+.hovercontent{
+	display: none;
+}
+.hovercontent h2{
+	padding: 60px 25px 20px 25px;
+	color: #ffffff;
+	font-weight: 300;
+}
+.hovercontent h1{
+	padding: 0px 20px 0px 20px;
+	color: #00e676;
+	font-weight: 300;
+}
+.hovercontent h3{
+	color: #ffffff;
+	font-weight: 500;
+	font-size: 150%;
+}
+.content:hover .hovercontent{
+	display: block;
+	width: 300px;
+	height: 350px;
+	box-shadow: 0px 1px 10px -1px #888888;
+	border-radius: 5px;
+	background-color: #212121;
+}
+.content:hover .contentstatic{
+	display: none;
+}
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+
+
+.now{
+	display: block;
+	text-align: center;
+	margin-top: 100px;
+}
+.letsbtn{
+	border: none;
+	cursor: pointer;
+	padding: 20px 40px;
+	background-color: #00bfa5;
+	color: #ffffff;
+	border-radius: 10px;
+	border: none;
+	color: #fff;
+	font-size: 200%;
+}
+.letsbtn:hover{
+	background-color: #1DE9B6;
+}

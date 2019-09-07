@@ -1,0 +1,354 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 479px){
+  .modalcontent{
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  #saleclose{
+    margin-left: 5%;
+  }
+  .modalcontent img{
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  .modalcontent button{
+    font-size: 100%;
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  .header{
+    background-image: url("http://pvlsites.com/Kulkarni/FBLA/images/HeaderBgSmallDisplay.jpg");
+    background-attachment: scroll;
+    background-position: center top;
+    background-size: cover;
+  }
+  #textbg{
+    padding: 0px;
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+  }
+  #textbg img{
+    width: 90%;
+    height: 90%;
+  }
+  #lets{
+    padding: 0px;
+    text-align: center;
+    padding: 50px 0px 30px 0px;
+  }
+  .letsbtn{
+    font-size: 150%;
+  }
+  .howitworks h1{
+    font-size: 250%;
+  }
+  .hiwcards{
+    flex-direction: column;
+  }
+  .hiwcards img{
+    width: 85%;
+    height: auto;
+  }
+  .hiwtxt{
+  	width: 320px;
+    margin-bottom: 15px;
+  }
+  .hiwtitles{
+    margin: 0px;
+    margin-top: 20px;
+  }
+  .video h1{
+    font-size: 150%;
+  }
+  .video iframe{
+  	display: block;
+  	text-align: center;
+  	padding-bottom: 50px;
+  	width: 320px;
+  	height: 180px;
+  }
+  #testrev{
+    font-size: 250%;
+  }
+  .endcta h1{
+    font-size: 250%;
+  }
+}
+
+@media only screen and (min-device-width : 480px) and (max-device-width : 767px){
+  .modalcontent{
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  #saleclose{
+    margin-left: 5%;
+  }
+  .modalcontent img{
+    width: 75%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  .modalcontent button{
+    font-size: 100%;
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  .header{
+    background-image: url("http://pvlsites.com/Kulkarni/FBLA/images/HeaderBgSmallDisplay.jpg");
+    background-attachment: scroll;
+    background-position: center top;
+    background-size: cover;
+  }
+  #textbg{
+    padding: 0px;
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+  }
+  #textbg img{
+    width: 90%;
+    height: 90%;
+  }
+  #lets{
+    padding: 0px;
+    text-align: center;
+    padding: 50px 0px 30px 0px;
+  }
+  #lets img{
+    width: 50%;
+    height: 50%;
+  }
+  .hiwcards{
+    flex-direction: column;
+  }
+  .hiwcards img{
+    width: 85%;
+    height: auto;
+  }
+  .hiwtxt{
+  	width: 320px;
+    margin-bottom: 15px;
+  }
+  .hiwtitles{
+    margin: 0px;
+    margin-top: 20px;
+  }
+  .video iframe{
+  	display: block;
+  	text-align: center;
+  	padding-bottom: 50px;
+  	width: 480px;
+  	height: 270px;
+  }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px){
+  .modalcontent{
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  #saleclose{
+    margin-left: 5%;
+  }
+  .modalcontent img{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  .modalcontent button{
+    font-size: 100%;
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  .header{
+    background-image: url("http://pvlsites.com/Kulkarni/FBLA/images/HeaderBgSmallDisplay.jpg");
+    background-attachment: scroll;
+    background-position: center top;
+    background-size: cover;
+  }
+  #textbg{
+    padding: 0px;
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+  }
+  #textbg img{
+    width: 90%;
+    height: 90%;
+  }
+  #lets{
+    padding: 0px;
+    text-align: center;
+    padding: 50px 0px 30px 0px;
+  }
+  #lets img{
+    width: 50%;
+    height: 50%;
+  }
+  .hiwcards img{
+    width: auto;
+    height: auto;
+  }
+  .hiwtxt{
+  	width: 256px;
+  }
+  .hiwtitles{
+    margin: 0px;
+    margin-top: 20px;
+  }
+  .video iframe{
+  	display: block;
+  	text-align: center;
+  	padding-bottom: 50px;
+  	width: 700px;
+  	height: 393.75px;
+  }
+}
+
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1280px){
+  .modalcontent{
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  #saleclose{
+    margin-left: 30%;
+  }
+  .modalcontent img{
+    width: 40%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  .modalcontent button{
+    font-size: 100%;
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  #textbg{
+    padding: 70px 0px 0px 20px;
+  }
+  #lets{
+    padding: 70px 0px 70px 170px;
+  }
+  .hiwcards img{
+    width: auto;
+    height: auto;
+  }
+  .hiwtxt{
+  	width: 300px;
+  }
+}
+
+@media only screen and (min-device-width : 1281px) and (max-device-width : 1439px){
+  .modalcontent{
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  #saleclose{
+    margin-left: 30%;
+  }
+  .modalcontent img{
+    width: 40%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  .modalcontent button{
+    font-size: 100%;
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  #textbg{
+    padding: 70px 0px 0px 10px;
+  }
+  #lets{
+    padding: 70px 0px 70px 160px;
+  }
+  .hiwcards img{
+    width: auto;
+    height: auto;
+  }
+}
+
+@media only screen and (min-device-width : 1440px) and (max-device-width : 1823px){
+  .modalcontent{
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  #saleclose{
+    margin-left: 35%;
+  }
+  .modalcontent img{
+    width: 30%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  .modalcontent button{
+    font-size: 100%;
+    width: 30%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  #textbg{
+    padding: 70px 0px 0px 40px;
+  }
+  #lets{
+    padding: 70px 0px 70px 200px;
+  }
+}
+
+@media only screen and (min-device-width : 1824px) and (max-device-width : 1919px){
+  .modalcontent{
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  #saleclose{
+    margin-left: 35%;
+  }
+  .modalcontent img{
+    width: 30%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  .modalcontent button{
+    font-size: 100%;
+    width: 30%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-device-width : 1920px) and (max-device-width : 2047px){
+
+}
+
+@media only screen and (min-device-width : 2048px) and (max-device-width : 2560px){
+
+}
+
+@media only screen and (max-device-width : 320px){
+
+}

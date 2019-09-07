@@ -1,0 +1,253 @@
+
+/*Popup Modal Box*/
+#modal{
+  display: none;
+  position: fixed; /* Stay in place */
+  z-index: 2; /* Sit on top */
+  padding-top: 30px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+}
+#saleclose{
+	border: 0;
+	padding: 0px;
+	outline: none;
+	width: 50px;
+	height: 50px;
+	border-radius: 5px;
+	background: #f44336;
+	cursor: pointer;
+}
+.modalcontent{
+  margin: auto;
+	width: 640px;
+	height: 640px;
+  cursor: pointer;
+}
+.modalcontent button{
+	margin-top: 5px;
+	border: 0;
+  outline: none;
+  border-radius: 5px;
+  padding: 15px 0;
+  font-size: 30px;
+  font-weight: 500;
+  background: #00bfa5;
+  color: #ffffff;
+  transition: all 0.5s ease;
+	display: block;
+  width: 100%;
+	cursor: pointer;
+}
+.modalcontent button:hover{
+  background: #1DE9B6;
+}
+.header{
+	background-image: url("https://static.pexels.com/photos/326278/pexels-photo-326278.jpeg");
+ 	background-attachment: fixed;
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position:static;
+}
+#textbg{
+	padding: 70px 0px 0px 150px;
+}
+#lets{
+	padding: 70px 0px 70px 300px;
+}
+.letsbtn{
+	border: none;
+	cursor: pointer;
+	padding: 20px 40px;
+	background-color: #00bfa5;
+	color: #ffffff;
+	border-radius: 40px;
+	border: none;
+	color: #fff;
+	font-size: 200%;
+  box-shadow: 0 1px 3px rgba(0,191,165,0.12), 0 1px 2px rgba(0,191,165,0.24);
+  transition: all 0.3s ease;
+}
+.letsbtn:hover{
+	background-color: #1DE9B6;
+  box-shadow: 0px 0px 20px 10px rgba(0,191,165,0.25);
+}
+.howitworks{
+	margin: auto;
+	width: auto;
+	text-align: center;
+}
+.howitworks h1{
+	margin-top: 100px;
+	margin-bottom: 0px;
+	text-align: center;
+	font-size: 300%;
+	font-weight: 900;
+	color: #212121;
+}
+.hiwcards{
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+}
+.hiwcards img{
+	max-width: 100%;
+	height: auto;
+}
+.hiwcards h2{
+	font-weight: 900;
+  font-size: 200%;
+}
+.hiwcards p{
+	font-weight: 300;
+	margin: auto;
+}
+.hiwtxt{
+	display: none;
+	width: 420px;
+  color: #212121;
+	padding: 0px;
+	margin: -50px auto 0px auto;
+}
+.hiwarrow {
+	width: 40px;
+	height: 40px;
+  margin: auto;
+  position: relative;
+  top: -50px;
+  background-image: url("https://png.icons8.com/metro/40/ffffff/chevron-down.png");
+  background-size: contain;
+}
+.hiwclose{
+  display: none;
+  width: 40px;
+	height: 40px;
+  margin: auto;
+  position: relative;
+  top: -50px;
+  bottom: 0px;
+  background-image: url("https://png.icons8.com/ios/40/ffffff/cancel-filled.png");
+}
+.video{
+	background: linear-gradient(to bottom right, #00bfa5, #00e676);
+	width: 100%;
+	height: auto;
+  margin-top: 50px;
+}
+.video h1{
+	text-align: center;
+	color: #ffffff;
+	font-weight: 500;
+	font-size: 300%;
+  margin: 0px;
+  padding: 0px;
+	padding-top: 40px;
+}
+.video iframe{
+	display: block;
+  margin: auto;
+	padding: 40px 0px 50px 0px;
+	width: 1000px;
+	height: 562.5px;
+  border: 0;
+}
+.reviews{
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+}
+.reviews1{
+  display: block;
+}
+#testrev{
+	font-size: 300%;
+	margin: 0px;
+	text-align: center;
+	font-weight: 900;
+	color: #212121;
+}
+#testimg{
+	max-width: 100%;
+	height: auto;
+}
+.mySlides{
+  display: none;
+}
+.slideshow-container{
+  max-width: 1280px;
+  position: relative;
+  margin: auto;
+  margin-top: 20px;
+}
+.slideshow-container img{
+  box-shadow: 0 6px 28px rgba(0,0,0,0.25), 0 2px 10px rgba(0,0,0,0.22);
+  border-radius: 5px;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  background-color: rgba(33,33,33,0.3);
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(33,33,33,1);
+}
+#wanttoreview{
+  color: #212121;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 50px;
+}
+#wanttoreview a:link{
+	text-decoration: none;
+	color: #00e676;
+}
+#wanttoreview a:visited{
+	color: #00e676;
+}
+#wanttoreview a:hover{
+	text-decoration: underline;
+}
+.socialembed{
+	display: block;
+  text-align: center;
+  margin-top: 100px;
+  padding: 50px 0px;
+  background: linear-gradient(to bottom right, #1DA1F2, #326ada);
+  background: #293033;
+}
+.endcta{
+  display: block;
+  margin-top: 100px;
+  text-align: center;
+}
+.endcta h1{
+  font-weight: 500;
+  color: #212121;
+  font-size: 300%;
+  margin: 0px;
+}
+.endcta h3{
+  font-weight: 300;
+  color: #212121;
+  font-size: 150%;
+  margin: 0px;
+}
